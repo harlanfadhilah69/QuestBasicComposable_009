@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             NyobanyobaeuyyTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    TataletakRowColumn(
+
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
